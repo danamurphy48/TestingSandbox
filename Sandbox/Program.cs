@@ -10,6 +10,8 @@ namespace Sandbox
     {
         static void Main(string[] args)
         {
+            FizzBuzz fizzBuzz = new FizzBuzz();
+            fizzBuzz.StartFizzBuzz(15);
         }
     }
 }
